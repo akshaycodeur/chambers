@@ -1,0 +1,249 @@
+/*
+Theme Name: LawyerTheme
+Text Domain: Shriyai
+Version: 4.02
+Description : The fanciest sites
+Tags: Lawyering, fancy, minimalistic
+Author: Shriyai
+Author URI: https://google.com
+*/
+
+/* Chambers Style */
+:root {
+	--primary-gold: #d6b56e;
+	--dark-charcoal: #051C2C;
+	--dark-light: #333333;  
+	--headings-font-family: 'Libre Baskerville', serif;
+	--paragraph-font-family: 'Roboto', sans-serif;
+	--boxcolor1:#d6b56e;
+	--boxcolor2:#d3ae5f;
+	--boxcolor3:#cda34a;
+	}
+	
+	
+	/*Global*/
+	*,*:after,*::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	html{font-size:100%;-webkit-font-smoothing:antialiased}
+	body{position:relative;width:100%;height:100%;min-height:100%}
+	body{font-size:1em;line-height:1.6;-webkit-text-size-adjust:none}
+	a{color:#6d6d6d;text-decoration:none;transition:all .3s}
+	a:hover{text-decoration:none}
+	a:focus{outline:0;outline-offset:0;text-decoration:none}
+	iframe{border:0}
+	ul{list-style:square}
+	img{max-width:100%;height:auto}
+	hr{border:0}
+	html *{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+	iframe{width:100%;height:100%;height:400px}
+	hr{margin:30px auto;padding:0;height:1px;background-color:rgba(0,0,0,0.05);width:100%}
+	
+	.margintop-big{margin-top: 5rem;}
+	.margintop-small{margin-top: 2rem;}
+	.marginbottom-big{margin-bottom: 5rem;}
+	.marginbottom-small{margin-bottom: 2rem;}
+	
+	.paddingtop-big{padding-top: 5rem;}
+	.paddingtop-small{padding-top: 2rem;}
+	.paddingbottom-big{padding-bottom: 5rem;}
+	.paddingbottom-small{padding-bottom: 2rem;}
+	
+	.heading{text-align:center;margin-bottom:5rem}
+	.heading:after{content:'';background:var(--primary-gold);display:block;width:5%;height:1px;position:absolute;left:0;right:0;margin:0 auto;margin-top:1rem}
+	button.btn{border:1px solid;border-radius:0;padding:.5rem 1rem;text-transform:uppercase;font-size:.9rem}
+	.btnline--blue { border-color:var(--primary-gold); transition:all 300ms;}
+	.btnline--blue:hover { background:var(--primary-gold); color: #ececec;}
+	
+	.btnline--white { border-color:#fff; transition:all 300ms; color: #ececec;}
+	.btnline--white:hover { background:#fff;}
+	
+	/*Typography*/
+	h1,h2,h3{font-family:var(--headings-font-family);font-weight: 700;}
+	body{font-family:var(--paragraph-font-family);line-height:25px;color:var(--dark-light);font-size:15px;font-weight:500;overflow-x:hidden;position:relative}
+	input,textarea{font-family:var(--paragraph-font-family);color:#a6a6a6}
+	p{margin:0 0 20px}
+	h1,h2,h3,h4,h6{font-family:var(--headings-font-family);margin:0 0 20px;font-weight:normal;font-weight:800}
+	h1{font-size:4rem}
+	h2{font-size:2.4rem;line-height:3.4rem}
+	h3{font-size:1.8rem;line-height:2.7rem}
+	h4{font-size:1.2rem;line-height:1.7rem}
+	h5{font-size:.95rem;line-height:1.5rem}
+	
+	
+	/*Top Strip*/
+	.sectionTopstrip { height:30px;background-color:var(--primary-gold);color: #fff;}
+	.topstrip{display:flex;justify-content:flex-end}
+	.phonetop{display:contents}
+	
+	
+	/* Navigation */
+	.bg-light{background-color:#fff!important}
+	
+	/* Hero Section */ 
+	.slide1,
+	.slide2,
+	.slide3{height: 80vh;width: 100vw; background-size: cover; display: block;}
+	
+	.slide1{background-image: url("assets/images/slider1.png"); background-color: violet; background-size: cover;}
+	.slide2{background-image: url('assets/images/slider2.png'); background-size: cover;}
+	.slide3{background-image: url('assets/images/slider3.png');background-color: khaki; background-size: cover;}
+	
+	.slide--content{display:grid!important;align-items:center; height: 80vh;}
+	.slide--text {text-align: center;color: #fff;padding:10rem 0;}
+	
+	
+	/* --------------------------------------------- Golden strip  ---------------------------------------------*/
+	.threegrids{display:grid;grid-template-columns:1fr 1fr 1fr;width:90vw;position:absolute;margin-top:-10rem}
+	.gridhighlight{background:var(--primary-gold);padding:2rem;color:#fff}
+	.sectionHighlights{position:relative;min-height:350px;display:grid;place-items:center}
+	.box1{background-image: url("assets/images/box1.png"); background-color: #d6b56e; background-size: cover;}
+	.box2{background-image: url("assets/images/box2.png"); background-color: #d3ae5f; background-size: cover;}
+	.box3{background-image: url("assets/images/box3.png"); background-color: #cda34a; background-size: cover;}
+	
+	@media only screen and (max-width: 1200px) {
+	  .threegrids{position: relative;top:0;grid-template-columns: 1fr;margin-top: 0;margin-bottom: 5rem;}
+	}
+	
+	/*Section Areas*/
+	.areaBox{text-align:center;box-shadow:1px 1px 11px #ececec;padding:3rem 0;margin:.8rem 0;cursor:pointer}
+	.areaBox:hover{box-shadow:1px 1px 15px 4px #d2d2d2;transition:all 300ms}
+	.areaBox h4{margin-top:2rem;font-size:1rem}
+	.areaBox img{width:63px!important}
+	
+	/* About Us Section */
+	.heading--left{text-align:left}
+	.heading--left:after{position:relative;margin-left:0;width:15%}
+	.socialhandles{display:flex}
+	.social{margin-right: .5rem;}
+	.sectionAbout{background-image:url('assets/images/aboutbg.png');background-size:cover;}
+	
+	/* Team Section */
+	hr.teamsep{margin:3rem 0;border-top:1px solid black;width:35vw}
+	.teamimage img{border-radius:50%;padding:2rem;width:300px}
+	h4.name{color:var(--boxcolor1);height:1.5rem;text-align: center;}
+	.teampara{text-align:center}
+	
+	/*Contact Us Section */
+	.sectionContact{background-image:url('assets/images/contactbg.png');background-size:cover}
+	
+	textarea#exampleFormControlTextarea1,
+	input#exampleFormControlInput1{background:none;color:#fff!important;border:none;border-radius:0;border-bottom:1px solid white}
+	textarea#exampleFormControlTextarea1::placeholder,
+	input#exampleFormControlInput1::placeholder{color: #fff;}
+	.heading--white{text-align:center;margin-bottom:5rem;color: #fff;}
+	.heading--white:after{content:'';background:#fff;display:block;width:5%;height:1px;position:absolute;left:0;right:0;margin:0 auto;margin-top: 1rem;}
+	
+	/* Footer Section */
+	.sectionFooter{background-color: #121616; color: #fafafa;}
+	.footerlogo{max-width: 200px; margin-bottom: 1rem;}
+	.footer-col{padding: 0 1rem;}
+	span.pin{width:20px;height:20px;background-image:url(assets/images/location.png);background-size:contain;display:block;float:left;margin-bottom:2rem;margin-right:.5rem}
+	span.call{width:20px;height:20px;background-image:url(assets/images/phone-call.png);background-size:contain;display:block;float:left;margin-bottom:2rem;margin-right:.5rem}
+	
+	/* Testimonials */
+	.sectionTestimonials{background:#f9f9f9}
+	
+	/* News */
+	.news-box{display:grid;grid-template-columns:1fr 4fr;margin-bottom:1rem;box-shadow:0 0 9px 0 #f1f1f1}
+	.newspara{padding:1rem}
+	.newsimage1{background-image:url(assets/images/slider1.png);background-size:cover;background-repeat:no-repeat;background-position:center}
+	.newsimage2{background-image:url(assets/images/slider2.png);background-size:cover;background-repeat:no-repeat;background-position:center}
+	.newsimage3{background-image:url(assets/images/slider3.png);background-size:cover;background-repeat:no-repeat;background-position:center}
+	.newsimage4{background-image:url(assets/images/slider4.png);background-size:cover;background-repeat:no-repeat;background-position:center}
+	.news-box:hover .newspara{background:#e5c787;color:#fff;transition:all 300ms}
+	
+	/*custom*/
+	
+	
+	
+	a.navbar-brand img {
+		max-height: 100px;
+	}
+	
+	.nav-link{padding-left:1rem;font-size:1.1rem}
+	a.nav-link:hover {
+	  border-bottom: 1px solid var(--primary-gold);
+	  font-weight: bolder;
+	  color: var(--dark-light);
+	}
+	a.nav-link{transition: all 300ms; border-bottom: 1px solid white;}
+	a.nav-link{font-weight:bolder}
+	.slide--content:before {
+	  content: '';
+	  background: rgba(0, 0, 0, 0.5);
+	  height: 710%;
+	}
+	
+	.socialiconstop {
+	  margin-left: 1rem;
+	}
+	.socialiconstop img {
+	  width: 20px;
+	}
+	
+	.footer-col a{color: #fff;}
+	
+	
+	
+	
+	.hidden{display: none!important;}
+  
+  
+	  /* Contact Form 7 */
+  
+	  .wpcf7 input, 
+	  .wpcf7 textarea {
+		  background: none;
+		  border: none;
+		  border-bottom: 1px solid white;
+		  width: 100%;
+		  margin-top: 2rem;
+		  color:white;
+		  font-size: 1rem
+	  }
+  
+	  .wpcf7 input::placeholder {
+		  color: #fff;
+		  font-size: 1rem;
+		  letter-spacing: 1px;
+	  }
+  
+	  .wpcf7 textarea::placeholder {
+		  color: #fff;
+		  font-size: 1rem;
+		  letter-spacing: 1px;
+	  }
+  
+  .wpcf7 .wpcf7-submit {
+			  border: 1px solid white;
+			  color: white;
+			  width: auto;
+			  padding: 0.5rem 1rem;
+			  text-transform: uppercase;
+			  transition: all 300ms;
+		  }
+  
+  .wpcf7 .wpcf7-submit:hover{
+			  background-color: white;
+			  color: #212529;
+		  }
+  
+  .various-tags a {
+	  background: #d6b56e;
+	  margin-right: 0.5rem;
+	  padding: 0.25rem;
+	  color: #fff;
+	  border-radius: 3px;
+  }
+  
+  .post-header {
+	  text-align: right;
+	  padding: 1rem 0;
+  }
+  
+  .post-date{ margin-bottom: 1rem; color: #d6b56e;}[]
+  .post-header:after{ content: ''; display: block; border: 1px solid #e5e5e5; margin-top: 1rem;}
+  
+  /* Homepage newssection */
+  .news--image {
+	  background-size: cover!important;
+  }
