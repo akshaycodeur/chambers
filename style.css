@@ -144,7 +144,7 @@ Author URI: https://google.com
 	
 	/* News */
 	.news-box{display:grid;grid-template-columns:1fr 4fr;margin-bottom:1rem;box-shadow:0 0 9px 0 #f1f1f1}
-	.newspara{padding:1rem height:150px;overflow:hidden;}
+	.newspara{padding:1rem; height:150px;overflow:hidden;}
 	.newsimage1{background-image:url(assets/images/slider1.png);background-size:cover;background-repeat:no-repeat;background-position:center}
 	.newsimage2{background-image:url(assets/images/slider2.png);background-size:cover;background-repeat:no-repeat;background-position:center}
 	.newsimage3{background-image:url(assets/images/slider3.png);background-size:cover;background-repeat:no-repeat;background-position:center}
@@ -248,3 +248,11 @@ Author URI: https://google.com
   .news--image {
 	  background-size: cover!important;
   }
+
+  .wpcf7 form.invalid .wpcf7-response-output, 
+  .wpcf7 form.unaccepted .wpcf7-response-output, 
+  .wpcf7 form.payment-required .wpcf7-response-output,
+  .wpcf7-response-output {
+    background: rgba(255, 255, 255, 0.2);
+    border: none!important;
+}
