@@ -30,11 +30,11 @@ get_header();
           <p>Phasellus placerat lectus rutrum, convallis odio non, maximus neque. Nulla vel pharetra arcu. Nullam placerat, nulla ac luctus consequat, nulla arcu lobortis libero, ut pretium justo neque vel justo.</p>
         </div>
         <div class="gridhighlight box2">
-          <h3>+10 years of practice</h3>
-          <p>Phasellus placerat lectus rutrum, convallis odio non, maximus neque. Nulla vel pharetra arcu. Nullam placerat, nulla ac luctus consequat, nulla arcu lobortis libero, ut pretium justo neque vel justo.</p>
+          <h3>+30 years of practice</h3>
+          <p>Mrs Hilda Yerriah has been practicing as an Attorney for more than 30 plus years now. Herknowledge and expertise will be the adequate tools to accompany you all the way. Ms GayleYerriah is a barrister practicing for 10 years now. The wide range of matters which have beendealt within the chambers speaks for the type of service you will receive.</p>
         </div>
         <div class="gridhighlight box3">
-          <h3>Apprenticeship witht the best</h3>
+          <h3>Apprenticeship with the best</h3>
           <p>Phasellus placerat lectus rutrum, convallis odio non, maximus neque. Nulla vel pharetra arcu. Nullam placerat, nulla ac luctus consequat, nulla arcu lobortis libero, ut pretium justo neque vel justo.</p>
         </div>
       </div>

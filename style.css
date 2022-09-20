@@ -81,15 +81,14 @@ Author URI: https://google.com
 	/* Hero Section */ 
 	.slide1,
 	.slide2,
-	.slide3{height: 80vh;width: 100vw; background-size: cover; display: block;}
+	.slide3{height: 100vh;width: 100vw; background-size: cover; display: block;}
 	
 	.slide1{background-image: url("assets/images/slider1.png"); background-color: violet; background-size: cover;}
 	.slide2{background-image: url('assets/images/slider2.png'); background-size: cover;}
 	.slide3{background-image: url('assets/images/slider3.png');background-color: khaki; background-size: cover;}
 	
-	.slide--content{display:grid!important;align-items:center; height: 80vh;}
+	.slide--content{display:grid!important;align-items:center; height: 100vh;}
 	.slide--text {text-align: center;color: #fff;padding:10rem 0;}
-	
 	
 	/* --------------------------------------------- Golden strip  ---------------------------------------------*/
 	.threegrids{display:grid;grid-template-columns:1fr 1fr 1fr;width:90vw;position:absolute;margin-top:-10rem}
@@ -151,6 +150,7 @@ Author URI: https://google.com
 	.newsimage3{background-image:url(assets/images/slider3.png);background-size:cover;background-repeat:no-repeat;background-position:center}
 	.newsimage4{background-image:url(assets/images/slider4.png);background-size:cover;background-repeat:no-repeat;background-position:center}
 	.news-box:hover .newspara{background:#e5c787;color:#fff;transition:all 300ms}
+
 	
 	/*custom*/
 	
