@@ -22,7 +22,7 @@
 		<?php
 			wp_head();
 		?>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 		<link rel="icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.png">
     <title>Yerriah Chambers</title>
   </head>
@@ -33,7 +33,7 @@
           <div class="col-md-12 topstrip">
             <div class="phonetop">
               <span class="call"></span>
-              <p>(+230) 208 0429 |</p>
+              <a href="tel:+2302080429">(+230) 208 0429</a>
               <div class="socialiconstop">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebookwhite.png" alt="">
 			</a>

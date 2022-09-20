@@ -120,48 +120,6 @@ get_header();
       </div>
     </section>
 
-    <section class="sectionTeam paddingtop-big paddingbottom-big hidden" id="aboutUs">
-      <div class="row padding top-big justify-content-center">
-        <div class="col-md-12">
-          <h3 class="heading">Our Team.</h3>
-        </div>
-        <div class="col-md-4">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hilda.png" alt="">
-        </div>
-        <div class="col-md-6">
-          <h4 class="name">Hilda Damee Yerriah</h4>
-          <p>Mrs Hilda Yerriah is the Head of Chambers. She has been an Attorney since 1989 and has been in practice since. She deals mainly in Civil matters mainly Family, Land, Intellectual Property, Commercial and Employment Law. She has represented numerous clients over mediation matters and is acting Attorney for an institution dealing in copyright matters. Hilda is also a certified mediator and a certified compliance officer (FCCCP). She has been the President of the CIArb Mauritius Branch for a whole year in 2019 to 2020. She has represented the branch in Nairobi Kenya by being one of the Speakers at the Women in Arbitration Conference in Kenya. She is also the Chancellor of the Province of the Indian Ocean (Anglican Community) and she is on the board of the Global South Anglican Communion as a member and secretary to the Board and has been a member of that Board since 2 years. She has represented the Anglican Church in the Egypt conference in 2019. 
-          </p>
-        </div>
-        <hr class="teamsep">
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <h4 class="name">Gayle Mary-Jane Yerriah</h4>
-            <p>Ms Gayle M Yerriah has been called to the Bar of England and Wales in November 2011 before practicing the BPTC at the University of West England. She is a member of the Honourable Society of Middle Temple Inn and has been called to the Bar in Mauritius in January 2013. Ms Yerriah has been in practice as a litigator since 2013 and has appeared in numerous civil and criminal cases in all the courts of Mauritius. She has been a board member of the Information and Communication Technologies Authority one of the parastatal bodies in Mauritius. She has represented Mauritius at the Annual CRASA meeting in Namibia in 2017. She is now sitting as a board member of the Financial Services Commission of Mauritius. By being on the FSC she has had the opportunity to represent the country at the Islamic Finance Conference held in Indonesia in 2019 and chairs and sits on various sub committees of the Board. 
-            </p>
-            <p>She has also been chairing some board of Inquiry for parastatals in Mauritius and is a Fellow Arbitrator. Ms Gayle Yerriah is also an adept of Fintech and has undergone a course with the National University of Singapore in relation to Fintech: Innovation and Transformation in Financial Services. </p>
-          </div>
-          <div class="col-md-4">
-            <img src="assets/images/gayle.png" alt="">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/gayle.png" alt="">
-          </div>
-        </div>
-
-        <hr class="teamsep">
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/noimageperson.png" alt="">
-        </div>
-        <div class="col-md-6">
-          <h4 class="name">Ariel Meredith Sowamber-Ah Chon</h4>
-          <p><a href="#">Read More</a> She is very dynamic, motivated and always willing to help and learn. Anytime you call the office, she will be the one to welcome you first.
-          </p>
-        </div>
-      </div>
-        
-
-      </div>
-    </section>
 
 
     <section class="sectionTeam paddingtop-big paddingbottom-big" id="teams">
@@ -170,7 +128,7 @@ get_header();
           <div class="col-md-12">
             <h3 class="heading">Our Team</h3>
           </div>
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-md-4 teampara">
               <h4 class="name">Hilda Damee Yerriah</h4>
               <div class="teamimage"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/hilda.png" alt="">
@@ -210,25 +168,6 @@ get_header();
                     <div class="modal-body">
                       <p>Ms Gayle M Yerriah has been called to the Bar of England and Wales in November 2011 before practicing the BPTC at the University of West England. She is a member of the Honourable Society of Middle Temple Inn and has been called to the Bar in Mauritius in January 2013. Ms Yerriah has been in practice as a litigator since 2013 and has appeared in numerous civil and criminal cases in all the courts of Mauritius. She has been a board member of the Information and Communication Technologies Authority one of the parastatal bodies in Mauritius. She has represented Mauritius at the Annual CRASA meeting in Namibia in 2017. She is now sitting as a board member of the Financial Services Commission of Mauritius. By being on the FSC she has had the opportunity to represent the country at the Islamic Finance Conference held in Indonesia in 2019 and chairs and sits on various sub committees of the Board.</p>
                       <p>She has also been chairing some board of Inquiry for parastatals in Mauritius and is a Fellow Arbitrator. Ms Gayle Yerriah is also an adept of Fintech and has undergone a course with the National University of Singapore in relation to Fintech: Innovation and Transformation in Financial Services.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 teampara">
-              <h4 class="name">Ariel Meredith Sowamber-Ah Chon</h4>
-              <div class="teamimage"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/noimageperson.png" alt=""></div>
-              <p>Ariel is our legal secretary who has been accompanying us since years now. She takes care of all the administrative part of the office... </p>
-              <button type="button" class="btn btnline--blue" data-bs-toggle="modal" data-bs-target="#arielMeredith">Read More</button>
-              <div class="modal fade" id="arielMeredith" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Ariel Meredith Sowamber-Ah Chon</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>Ariel is our legal secretary who has been accompanying us since years now. She takes care of all the administrative part of the office. She is very dynamic, motivated and always willing to help and learn. Anytime you call the office, she will be the one to welcome you first.</p>
                     </div>
                   </div>
                 </div>
@@ -288,15 +227,16 @@ get_header();
 		  ?>
 
 		  <div class="col-md-6">
+      <a href="<?php the_permalink() ?>">
 			<div class="news-box">
-				
 			<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 			<?php echo '<div class="news--image" style="background: url('. $url.')"></div>'; ?>	
 			  <div class="newspara">
-			  <h5><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h5>
+			  <h5><?php the_title(); ?></h5>
 			  <p><?php the_excerpt(__('(more…)')); ?></p>
 			  </div>
 			</div>
+      </a>
 		  </div>
 
 		  <?php 

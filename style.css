@@ -138,13 +138,14 @@ Author URI: https://google.com
 	.footer-col{padding: 0 1rem;}
 	span.pin{width:20px;height:20px;background-image:url(assets/images/location.png);background-size:contain;display:block;float:left;margin-bottom:2rem;margin-right:.5rem}
 	span.call{width:20px;height:20px;background-image:url(assets/images/phone-call.png);background-size:contain;display:block;float:left;margin-bottom:2rem;margin-right:.5rem}
+	.timings{text-align:-webkit-center}
 	
 	/* Testimonials */
 	.sectionTestimonials{background:#f9f9f9}
 	
 	/* News */
 	.news-box{display:grid;grid-template-columns:1fr 4fr;margin-bottom:1rem;box-shadow:0 0 9px 0 #f1f1f1}
-	.newspara{padding:1rem}
+	.newspara{padding:1rem height:150px;overflow:hidden;}
 	.newsimage1{background-image:url(assets/images/slider1.png);background-size:cover;background-repeat:no-repeat;background-position:center}
 	.newsimage2{background-image:url(assets/images/slider2.png);background-size:cover;background-repeat:no-repeat;background-position:center}
 	.newsimage3{background-image:url(assets/images/slider3.png);background-size:cover;background-repeat:no-repeat;background-position:center}
