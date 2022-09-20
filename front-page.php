@@ -50,49 +50,49 @@ get_header();
         <div class="row">
           <div class="col-md-3">
             <div class="areaBox">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/international_law.png" alt="">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/family_law.png" alt="">
               <h4>Family Law</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/litigation.png" alt="">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/commercial_law.png" alt="">
               <h4>Commercial Law</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/public_law.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/employment_law.png" alt="">
               <h4>Employment Law</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bankruptcy_law.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/government_law.png" alt="">
               <h4>Local Government</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/corporate_law.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/insurance_claims.png" alt="">
               <h4>Insurance Claims</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/criminal_law.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/corporate_law.png" alt="">
               <h4>Corporate Law</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/data_privacy.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/medical_negligence.png" alt="">
               <h4>Medical Negligence</h4>
             </div>
           </div>
           <div class="col-md-3">
             <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bankruptcy_law.png" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/government_law.png" alt="">
               <h4>Public law</h4>
             </div>
           </div>
