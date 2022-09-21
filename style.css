@@ -111,6 +111,7 @@ Author URI: https://www.developmentstage.co/
 	.areaBox:hover{box-shadow:1px 1px 15px 4px #d2d2d2;transition:all 300ms}
 	.areaBox h4{margin-top:2rem;font-size:1rem}
 	.areaBox img{width:63px!important}
+	#areaOfExpertise a { color:var(--dark-charcoal);text-decoration:none!important}
 	
 	/* About Us Section */
 	.heading--left{text-align:left}
