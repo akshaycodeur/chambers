@@ -89,7 +89,7 @@ Author URI: https://google.com
 	.slide3{background-image: url('assets/images/slider3.png');background-color: khaki; background-size: cover;}
 	
 	.slide--content{display:grid!important;align-items:center; height: 100vh;}
-	.slide--text {text-align: center;color: #fff;padding:10rem 0;}
+	.slide--text {text-align: center;color: #fff;padding:14rem 0;}
 	
 	/* --------------------------------------------- Golden strip  ---------------------------------------------*/
 	.threegrids{display:grid;grid-template-columns:1fr 1fr 1fr;width:90vw;position:absolute;margin-top:-10rem}
@@ -154,9 +154,7 @@ Author URI: https://google.com
 	.newspara h5{font-weight:600;color:#414141}
 	.newspara p{color:#4b4b4b}	
 	
-	/*custom*/
-	
-	
+	/*custom*/	
 	
 	a.navbar-brand img {
 		max-height: 100px;
