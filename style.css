@@ -1,7 +1,7 @@
 /*
-Theme Name: Yerriah Chambers - Ash
-Version: 2.01
-Description : The fanciest sites
+Theme Name: Yerriah Chambers - AshDev
+Version: 4.00
+Description : A lawyering firm
 Tags: Law, Gold, minimalistic
 Author: Ash
 Author URI: https://www.developmentstage.co/
@@ -81,15 +81,19 @@ Author URI: https://www.developmentstage.co/
 	/* Hero Section */ 
 	.slide1,
 	.slide2,
-	.slide3{height: 100vh;width: 100vw; background-size: cover; display: block;}
+	.slide3{height: 100vh;width: 100vw; background-size: cover; display: block;background-position: center;}
 	
 	.slide1{background-image: url("assets/images/slider1.png"); background-color: violet; background-size: cover;}
 	.slide2{background-image: url('assets/images/slider2.png'); background-size: cover;}
 	.slide3{background-image: url('assets/images/slider3.png');background-color: khaki; background-size: cover;}
-	
+
 	.slide--content{display:grid!important;align-items:center; height: 100vh;}
 	.slide--text {text-align: center;color: #fff;padding:14rem 0;}
 	
+	@media screen and (max-width: 600px) {
+		.gridhighlight{margin:1rem 0;}
+	  }
+	  
 	/* --------------------------------------------- Golden strip  ---------------------------------------------*/
 	.threegrids{display:grid;grid-template-columns:1fr 1fr 1fr;width:90vw;position:absolute;margin-top:-10rem}
 	.gridhighlight{background:var(--primary-gold);padding:2rem;color:#fff}
@@ -103,7 +107,7 @@ Author URI: https://www.developmentstage.co/
 	}
 	
 	/*Section Areas*/
-	.areaBox{text-align:center;box-shadow:1px 1px 11px #ececec;padding:3rem 0;margin:.8rem 0;cursor:pointer}
+	.areaBox{text-align:center;box-shadow:1px 1px 11px #ececec;padding:3rem 0;margin:.8rem 0;cursor:pointer; opacity: .1;}
 	.areaBox:hover{box-shadow:1px 1px 15px 4px #d2d2d2;transition:all 300ms}
 	.areaBox h4{margin-top:2rem;font-size:1rem}
 	.areaBox img{width:63px!important}

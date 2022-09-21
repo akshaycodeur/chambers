@@ -21,7 +21,10 @@
 		<?php
 			wp_head();
 		?>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js" defer></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/javascript/custom.js" defer></script>
+
 		<link rel="icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/favicon.png">
     <title>Yerriah Chambers</title>
   </head>

@@ -49,52 +49,68 @@ get_header();
         </div>
         <div class="row">
           <div class="col-md-3">
-            <div class="areaBox">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/family_law.png" alt="">
-              <h4>Family Law</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/family_law.png" alt="">
+                <h4>Family Law</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/commercial_law.png" alt="">
-              <h4>Commercial Law</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/commercial_law.png" alt="">
+                <h4>Commercial Law</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/employment_law.png" alt="">
-              <h4>Employment Law</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/employment_law.png" alt="">
+                <h4>Employment Law</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/government_law.png" alt="">
-              <h4>Local Government</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/government_law.png" alt="">
+                <h4>Local Government</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/insurance_claims.png" alt="">
-              <h4>Insurance Claims</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/insurance_claims.png" alt="">
+                <h4>Insurance Claims</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/corporate_law.png" alt="">
-              <h4>Corporate Law</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/corporate_law.png" alt="">
+                <h4>Corporate Law</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/medical_negligence.png" alt="">
-              <h4>Medical Negligence</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/medical_negligence.png" alt="">
+                <h4>Medical Negligence</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-3">
-            <div class="areaBox">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/government_law.png" alt="">
-              <h4>Public law</h4>
-            </div>
+            <a href="/expertise">
+              <div class="areaBox">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/government_law.png" alt="">
+                <h4>Public law</h4>
+              </div>
+            </a>
           </div>
           <div class="col-md-12 text-center  margintop-small marginbottom-big">
             <a href="/expertise"><button type="button" class="btn btnline--blue">Read More</button></a>
