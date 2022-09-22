@@ -1,4 +1,4 @@
-<footer class="sectionFooter paddingtop-small paddingbottom-big">
+<footer class="sectionFooter paddingtop-small">
       <div class="container">
         <div class="row">
           <div class="col-md-4 footer-col">
@@ -50,9 +50,21 @@
 			<a href="tel:+2302080429">208 0429</a>
           </div>
         </div>
+		
+		<div class="row justify-content-center demarcation">
+          <div class="col-md-4 pr-5" style="padding-right: 1rem;">
+            <p>© 2022 Yerriah Chambers. All Rights Reserved.  </p>
+          </div>
+          <div class="col-md-4 text-center">
+          </div>
+          <div class="col-md-4 text-end">
+            <p>Designed by Shriyai | Ash</p>
+          </div>
+        </div>
+
       </div>
     </footer>
-
+	
 	<?php
 			wp_footer();
 			?> 

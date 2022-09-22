@@ -148,6 +148,7 @@ Author URI: https://www.developmentstage.co/
 	span.pin{width:20px;height:20px;background-image:url(assets/images/location.png);background-size:contain;display:block;float:left;margin-bottom:2rem;margin-right:.5rem}
 	span.call{width:20px;height:20px;background-image:url(assets/images/phone-call.png);background-size:contain;display:block;float:left;margin-bottom:2rem;margin-right:.5rem}
 	.timings{text-align:-webkit-center}
+	.demarcation{margin-top:2rem;border-top:1px solid #5e5b5b;padding-top:.5rem}
 	
 	/* Testimonials */
 	.sectionTestimonials{background:#f9f9f9}
